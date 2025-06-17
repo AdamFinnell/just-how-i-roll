@@ -1,8 +1,26 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: radial-gradient(circle, #1a1a1a, #000);
+    color:#0f0;
+    margin: 0;
+    padding:0;
+}
+h1 {
+    margin: top 2rem;
+    font-size: 3rem;
+    color: #0f0;
+    text-shadow: 2px 2px 10px #0000ff;
+}
+.dice-container{
+    display: flex;
+}
+
 #reset-button:focus{
     outline: none;
 }
 
-#double-d6-buttons {
+/* #double-d6-buttons {
     display: flex;
     flex-direction: column;
 }
@@ -15,12 +33,12 @@
 .roll {
     height: 100px;
     width: 100px;
-}
+} */
 
-.button-area {
+/* .button-area {
   display: flex;
   justify-content: center;
-}
+} */
 
 #reset-button {
     width: 200px;

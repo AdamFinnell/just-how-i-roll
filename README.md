@@ -4,7 +4,7 @@
 
 Today you'll be making an app that combines all the fun of rolling dice with all the fun of tracking the average rolls so far. These are equal funs.
 
-[The solution is hosted here](https://ci-wdi-900.github.io/just-how-we-roll/).
+The solution is hosted here https://ci-wdi-900.github.io/just-how-we-roll/.
 
 
 ### Tools Left Behind
@@ -90,5 +90,13 @@ Good luck _indeed_.
 
 ### Stretch Goals
 
-* Get that mode working if you haven't yet. It's tough, but... use an object to store the number of times each roll has been rolled, and then you can check every roll as you loop through, updating the object as you go. Don't forget that you can use bracket notation to set the object's keys. So if your variable is `roll`, and it holds a 6, then saying obj[roll] be the same as saying obj[6], and you can then set that to a value. **If this is proving tough for you, move on to another stretch goal and return to it later!**
+* Get that mode working if you haven't yet. It's tough, but... use an object to store the number of times each roll has been rolled, and then you can check every roll as you loop through, updating the object as you go. Don't forget that you can use bracket notation to set the object's keys. So if your variable is `roll`, and it holds a 6, then saying obj[roll] be the same as saying obj[6], and you can then set that to a value. 
 * Add animation. You can set an interval, I'd say 200ms, and do a random roll every time the `setInterval`'d function happens. Don't store it, but DO update the button. If you run it 10 times, that will work out nicely. The trick then is checking how many times it's run and cancelling the interval when that happens. Try global variables to hold 1) the number of times the interval function has run, and 2) the return value of setting up the interval, which, if you'll remember, is a "ticket" you can pass to `clearInterval` to cancel it. Then, the further trick is to run all your usual code at that point; doing an actual roll, calculating the mean/median/mode, etc.
+
+
+
+`image/d6/${random}.png`
+// click listener
+// finding a random num(S)
+// add the num to DB (arr at top)
+// change the image to reflect the num

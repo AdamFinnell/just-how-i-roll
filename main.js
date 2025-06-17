@@ -18,6 +18,8 @@ const getRandomNumber = function(max) {
     return result;
 }
 
+//console.log(getRandomNumber(12))
+
 const sortByNumber = function(arr) {
   const byNumber = function(item1, item2) {
     return item1 - item2;
@@ -25,6 +27,9 @@ const sortByNumber = function(arr) {
 
   return arr.slice().sort(byNumber);
 }
+
+// const arra = [3,1,2,4,5,,9,6,7]
+// console.log(sortByNumber(arra))
 
 /*******************
  * YOUR CODE BELOW *
